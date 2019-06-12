@@ -62,6 +62,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# Disable Lineage API checks
+WITHOUT_CHECK_API := true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
