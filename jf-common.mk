@@ -62,8 +62,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
